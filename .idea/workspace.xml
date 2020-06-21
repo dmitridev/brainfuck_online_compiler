@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:frontend" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8fd5f999-9e3f-41b7-8a12-de3b945a5bdf" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1blyibHTZAKPmtkHzVlSZY7eOcu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager" selected="Gradle.brainfuck [bootRun]">
+    <configuration name="brainfuck [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" singleton="false" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="InterpreterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="brainfuck.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dmitridev.brainfuck.InterpreterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fd5f999-9e3f-41b7-8a12-de3b945a5bdf" name="Default Changelist" comment="" />
+      <created>1589221103252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589221103252</updated>
+      <workItem from="1592739329041" duration="14731000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589222028294">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589222028294" />
+    <state x="374" y="31" width="1299" height="899" key="CommitChangelistDialog2" timestamp="1589635937250">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="374" y="31" width="1299" height="899" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1589635937250" />
+    <state width="902" height="254" key="GridCell.Tab.0.bottom" timestamp="1592755135322">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="902" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
+    <state width="902" height="254" key="GridCell.Tab.0.center" timestamp="1592755135322">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="902" height="254" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
+    <state width="902" height="254" key="GridCell.Tab.0.left" timestamp="1592755135322">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="902" height="254" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
+    <state width="902" height="254" key="GridCell.Tab.0.right" timestamp="1592755135322">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="902" height="254" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
+    <state width="914" height="359" key="GridCell.Tab.1.bottom" timestamp="1589402235207">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="914" height="359" key="GridCell.Tab.1.center" timestamp="1589402235207">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="914" height="359" key="GridCell.Tab.1.left" timestamp="1589402235207">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="914" height="359" key="GridCell.Tab.1.right" timestamp="1589402235207">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="914" height="359" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state x="0" y="188" key="SettingsEditor" timestamp="1592755313034">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="0" y="188" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1592755313034" />
+    <state x="1136" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1592754769159">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1136" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589635900784" />
+    <state x="1136" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592754769159" />
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1592748448088">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1589222618367" />
+    <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1592748448088" />
+  </component>
+</project>
