@@ -1,9 +1,6 @@
 package com.dmitridev.brainfuck.service;
 
 import com.dmitridev.brainfuck.dto.CharacterResponse;
-import org.springframework.http.HttpMethod;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -35,12 +32,19 @@ public class BrainfuckInterpreter {
         for (int index = 0; index < code.size(); index++) {
             switch (code.get(index)) {
                 case '>': {
-                    if (register.size() - 1 < index) register.add((char) 0);
+                    if (register.size() - 1 < registerIndex) {
+                    register.add((char) 0); break;
+                    }
                     registerIndex++;
+
                     break;
                 }
                 case '<': {
                     registerIndex--;
+                    if(registerIndex<0){
+                        register.add((char)0);
+                        registerIndex=0;
+                    }
                     break;
                 }
                 case '+': {
@@ -51,6 +55,7 @@ public class BrainfuckInterpreter {
                 }
                 case '-': {
                     if (register.size() == 0) register.add((char) 0);
+
                     Character ch = register.get(registerIndex);
                     if (ch != null) register.set(registerIndex, --ch);
                     break;
@@ -66,6 +71,7 @@ public class BrainfuckInterpreter {
                     break;
                 }
                 case '[': {
+
                     Character ch = register.get(registerIndex);
                     if (ch == 0) {
                         int stackIndex = stackOpenBraces.search(index);
@@ -84,15 +90,11 @@ public class BrainfuckInterpreter {
                 }
                 case '\n':
                 case '\r':
-                case ' ': {
+                case ' ': default:{
                     break;
-                }
-                default: {
-                    throw new Exception("Не могу прочитать данный символ! Ошибка!");
                 }
             }
         }
-
         return res;
     }
 
