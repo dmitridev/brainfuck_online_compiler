@@ -32,10 +32,12 @@ public class BrainfuckInterpreter {
         for (int index = 0; index < code.size(); index++) {
             switch (code.get(index)) {
                 case '>': {
-                    if (register.size() - 1 < registerIndex) {
-                    register.add((char) 0); break;
-                    }
                     registerIndex++;
+
+                    if (register.size() - 1 < registerIndex) {
+                        register.add((char) 0);
+                        break;
+                    }
 
                     break;
                 }
