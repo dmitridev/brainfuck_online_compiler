@@ -105,15 +105,13 @@ public class BrainfuckInterpreter {
                 index++;
              if(index > 9){
                 res.add(tmp);
-                tmp.forEach((key,value)->System.out.println("key="+key +"value="+value.getCh()));
                 tmp = new HashMap<>();
                 index=0;
             }
         }
-        if(res.size() !=0) {
+        if(tmp.size() != 0) {
             res.add(tmp);
         }
-        res.forEach(temp -> temp.forEach((key,value)->System.out.println("key="+key +"value="+value.getCh())));
 
         return res;
     }

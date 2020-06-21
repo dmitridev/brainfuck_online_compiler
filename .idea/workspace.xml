@@ -40,7 +40,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fd5f999-9e3f-41b7-8a12-de3b945a5bdf" name="Default Changelist" comment="" />
+    <list default="true" id="8fd5f999-9e3f-41b7-8a12-de3b945a5bdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dmitridev/brainfuck/service/BrainfuckInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dmitridev/brainfuck/service/BrainfuckInterpreter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,55 +176,93 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="374" y="31" width="1299" height="899" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1589635937250" />
-    <state width="902" height="254" key="GridCell.Tab.0.bottom" timestamp="1592755135322">
+    <state width="902" height="222" key="GridCell.Tab.0.bottom" timestamp="1592757533605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
-    <state width="902" height="254" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
-    <state width="902" height="254" key="GridCell.Tab.0.center" timestamp="1592755135322">
+    <state width="902" height="222" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
+    <state width="902" height="222" key="GridCell.Tab.0.center" timestamp="1592757533605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
-    <state width="902" height="254" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
-    <state width="902" height="254" key="GridCell.Tab.0.left" timestamp="1592755135322">
+    <state width="902" height="222" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
+    <state width="902" height="222" key="GridCell.Tab.0.left" timestamp="1592757533605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
-    <state width="902" height="254" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
-    <state width="902" height="254" key="GridCell.Tab.0.right" timestamp="1592755135322">
+    <state width="902" height="222" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
+    <state width="902" height="222" key="GridCell.Tab.0.right" timestamp="1592757533605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
-    <state width="902" height="254" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592755135322" />
-    <state width="914" height="359" key="GridCell.Tab.1.bottom" timestamp="1589402235207">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="902" height="222" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
+    <state width="902" height="222" key="GridCell.Tab.1.bottom" timestamp="1592757533605">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
-    <state width="914" height="359" key="GridCell.Tab.1.center" timestamp="1589402235207">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="902" height="222" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
+    <state width="902" height="222" key="GridCell.Tab.1.center" timestamp="1592757533605">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
-    <state width="914" height="359" key="GridCell.Tab.1.left" timestamp="1589402235207">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="902" height="222" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
+    <state width="902" height="222" key="GridCell.Tab.1.left" timestamp="1592757533605">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
-    <state width="914" height="359" key="GridCell.Tab.1.right" timestamp="1589402235207">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="902" height="222" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
+    <state width="902" height="222" key="GridCell.Tab.1.right" timestamp="1592757533605">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="914" height="359" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1589402235207" />
+    <state width="902" height="222" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1592757533605" />
     <state x="0" y="188" key="SettingsEditor" timestamp="1592755313034">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="0" y="188" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1592755313034" />
-    <state x="1136" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1592754769159">
+    <state x="1136" y="359" key="com.intellij.ide.util.TipDialog" timestamp="1592756271665">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1136" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1589635900784" />
-    <state x="1136" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592754769159" />
+    <state x="1136" y="359" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592756271665" />
     <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1592748448088">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="227" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1589222618367" />
     <state x="623" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1592748448088" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dmitridev/brainfuck/service/BrainfuckInterpreter.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dmitridev/brainfuck/service/BrainfuckInterpreter.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dmitridev/brainfuck/service/BrainfuckInterpreter.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dmitridev/brainfuck/service/BrainfuckInterpreter.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/dmitridev/brainfuck/service/BrainfuckInterpreter.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/brainfuck$brainfuck__bootRun_.ic" NAME="brainfuck [bootRun] Coverage Results" MODIFIED="1592757137325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
