@@ -28,13 +28,12 @@ public class BrainfuckInterpreter {
             else if (ch == ']')
                 stackCloseBraces.push(i);
         }
-
+        // попробовать переписать на stream api
         for (int index = 0; index < code.size(); index++) {
             switch (code.get(index)) {
                 case '>': {
                     registerIndex++;
-
-                    if (register.size() - 1 < registerIndex) {
+                if (register.size() - 1 < registerIndex) {
                         register.add((char) 0);
                         break;
                     }
@@ -43,9 +42,9 @@ public class BrainfuckInterpreter {
                 }
                 case '<': {
                     registerIndex--;
-                    if(registerIndex<0){
-                        register.add((char)0);
-                        registerIndex=0;
+                    if (registerIndex < 0) {
+                        register.add((char) 0);
+                        registerIndex = 0;
                     }
                     break;
                 }
@@ -92,7 +91,8 @@ public class BrainfuckInterpreter {
                 }
                 case '\n':
                 case '\r':
-                case ' ': default:{
+                case ' ':
+                default: {
                     break;
                 }
             }
@@ -102,18 +102,18 @@ public class BrainfuckInterpreter {
 
     public List<Map<String, CharacterResponse>> getResult(List<Character> code) {
         List<Map<String, CharacterResponse>> res = new ArrayList<>();
-        Map<String,CharacterResponse> tmp = new HashMap<>();
-        int index=0;
-        for(int i=0;i<code.size();i++){
-                tmp.put("r"+ (i%10),new CharacterResponse("r" + (i % 10),code.get(i)));
-                index++;
-             if(index > 9){
+        Map<String, CharacterResponse> tmp = new HashMap<>();
+        int index = 0;
+        for (int i = 0; i < code.size(); i++) {
+            tmp.put("r" + (i % 10), new CharacterResponse("r" + (i % 10), code.get(i)));
+            index++;
+            if (index > 9) {
                 res.add(tmp);
                 tmp = new HashMap<>();
-                index=0;
+                index = 0;
             }
         }
-        if(tmp.size() != 0) {
+        if (tmp.size() != 0) {
             res.add(tmp);
         }
 
