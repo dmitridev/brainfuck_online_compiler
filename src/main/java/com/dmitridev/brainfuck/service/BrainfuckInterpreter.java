@@ -12,7 +12,7 @@ public class BrainfuckInterpreter {
         this.code = code.chars().mapToObj(element -> (char) element).collect(Collectors.toList());
     }
 
-    public List<Character> interpret(String buffer) throws Exception {
+    public String interpret(String buffer) throws Exception {
         List<Character> listBuffer = buffer.chars().mapToObj(e -> (char) e).collect(Collectors.toList());
         int bufferIndex = 0;
         List<Character> register = new ArrayList<>();
@@ -97,7 +97,7 @@ public class BrainfuckInterpreter {
                 }
             }
         }
-        return res;
+        return res.stream().map(String::valueOf).collect(Collectors.joining());
     }
 
     public List<Map<String, CharacterResponse>> getResult(List<Character> code) {

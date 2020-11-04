@@ -16,10 +16,9 @@ import java.util.Map;
 public class BrainfuckController {
 
     @PostMapping("/interpreter")
-    public List<Map<String,CharacterResponse>> interpret(@RequestBody CodeRequest request) throws Exception {
+    public String interpret(@RequestBody CodeRequest request) throws Exception {
         BrainfuckInterpreter brainfuckInterpreter = new BrainfuckInterpreter(request.getCode());
-        List<Character> characters = brainfuckInterpreter.interpret(request.getParams());
-        return brainfuckInterpreter.getResult(characters);
+        return brainfuckInterpreter.interpret(request.getParams());
     }
 }
 

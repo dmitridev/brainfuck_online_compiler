@@ -1,0 +1,5 @@
+.vscode
+.settings
+bin
+build
+frontend/node_modules

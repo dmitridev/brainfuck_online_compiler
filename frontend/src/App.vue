@@ -1,40 +1,60 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
+    <v-app-bar app color="primary" dark>
       <v-toolbar-title>Brainfuck compiler</v-toolbar-title>
-      <v-spacer></v-spacer>
     </v-app-bar>
-
     <v-content>
-      <BrainfuckTextField/>
+      <MonacoEditor theme="vs-light" language="javascript" @change="onChange" />
     </v-content>
+    <v-footer>
+      <v-dialog
+        fullscreen
+        transition="dialog-bottom-transition"
+        v-model="dialog"
+      >
+        <v-card>
+          <v-toolbar dark color="primary">
+            <v-btn icon dark @click="dialog = false">
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+            <v-toolbar-title>Результат</v-toolbar-title>
+          </v-toolbar>
+
+          <v-card-text>{{ result }}</v-card-text>
+        </v-card>
+      </v-dialog>
+      <v-btn text @click="run(text)"> Запустить </v-btn>
+      <v-spacer/>
+      <v-btn text @click="dialog=true">{{result ? "Результат: " + result:""}}</v-btn>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
-import BrainfuckTextField from './components/BrainfuckTextField.vue'
+import MonacoEditor from "monaco-editor-vue";
+import axios from "axios";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    BrainfuckTextField,
+    MonacoEditor,
   },
-  methods:{
-
-  }
-}
+  data: () => ({
+    text: "",
+    result: "",
+    dialog: false,
+  }),
+  methods: {
+    onChange(v) {
+      this.text = v;
+    },
+    async run(text) {
+      this.dialog = true;
+      const { data } = await axios.post("/api/interpreter/", {
+        code: text,
+        params: "",
+      });
+      this.result = data;
+    },
+  },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
